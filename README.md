@@ -22,7 +22,7 @@ Sample Input: 8
 Sample Output: 7
 Explanation: There are 7 sequences of block heights that lead to a tower that is 8 cms tall:
              1. 2, 2, 2, 2
-             2. 2, 3, 3
+              2. 2, 3, 3
              3. 2, 6
              4. 3, 2, 3
              5. 3, 3, 2
