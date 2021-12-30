@@ -18,8 +18,8 @@ Constraints: 0 ≤ n ≤ 108\
 Output Format: Output the total number of sequences of heights that sum n centimeters, 
                given that at we have an unlimited number blocks that are of height 2, 3, 6, 7, and 8 cms.
                
-Sample Input: 8
-Sample Output: 7
+Sample Input: 8\
+Sample Output: 7\
 Explanation: There are 7 sequences of block heights that lead to a tower that is 8 cms tall:\
              1. 2, 2, 2, 2\
              2. 2, 3, 3\
@@ -27,4 +27,10 @@ Explanation: There are 7 sequences of block heights that lead to a tower that is
              4. 3, 2, 3\
              5. 3, 3, 2\
              6. 6, 2\
-             7. 8
+             7. 8\
+             \
+Sample Input 2: 150\
+Sample Output 2: 232772521\
+Explanation 2: There are 2,378,571,319,779,247,918,121,475 ways to make towers that are 150 cms tall. The final number is taken mod 1,000,000,009 to produce the answer.
+
+Note: You will probably want to apply the mod operation to all of your intermediate results so that you do not end up with integer overflow.
